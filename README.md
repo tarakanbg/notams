@@ -27,7 +27,7 @@ parse individual notams.
 
 ```ruby
 icao = "lowi"
-icao.notams # => returns an array containing all NOTAMs for London Heathrow
+icao.notams # => returns an array containing all NOTAMs for Innsbruck airport
 
 "lowi".notams # => same as above
 
