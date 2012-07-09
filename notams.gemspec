@@ -4,7 +4,7 @@ require File.expand_path('../lib/notams/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Svilen Vassilev"]
   gem.email         = ["svilen@rubystudio.net"]
-  gem.description   = %q{Retrieves the currently active NOTAMs for an airport or a region. Supports multiple airports/regions in one request. Pulls data from faa.gov website.}
+  gem.description   = %q{Retrieves the currently active NOTAMs for an airport or a region. Supports multiple airports/regions in one request. Pulls data from FAA website.}
   gem.summary       = %q{Retrieves the currently active NOTAMs for an airport or a region}
   gem.homepage      = "https://github.com/tarakanbg/notams"
 

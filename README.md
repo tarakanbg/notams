@@ -1,6 +1,8 @@
 # Notams
 
-TODO: Write a gem description
+A ruby gem for retrieving the currently active NOTAMs for an airport or a region.
+Supports multiple airports/regions in one request. Pulls data from [FAA](http://www.faa.gov/) website.
+Depends on `nokogiri` for the heavy lifting.
 
 ## Installation
 
@@ -18,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The `.notams` method can be applied to any string (or variable containing a string), representing a valid
+ICAO code of an airport or FIR, or a comma-separated list of airports/regions. It will return an array,
+containing all the **currently active** NOTAMs for your selection. You can loop through the array to display or
+parse individual notams.
+
+```ruby
+icao = "lowi"
+icao.notams # => returns an array containing all NOTAMs for London Heathrow
+
+"lowi".notams # => same as above
+
+icao = "lqsa,lqsb"
+icao.notams # => returns an array containing all NOTAMs for Sarajevo Airport and Bosnia and Herzegovina FIR
+```
 
 ## Contributing
 
