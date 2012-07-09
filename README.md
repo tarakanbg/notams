@@ -1,4 +1,4 @@
-# Notams
+# Notams [![Build Status](https://secure.travis-ci.org/tarakanbg/notams.png)](http://travis-ci.org/tarakanbg/notams)
 
 A ruby gem for retrieving the currently active NOTAMs for an airport or a region.
 Supports multiple airports/regions in one request. Pulls data from [FAA](http://www.faa.gov/) website.
