@@ -33,7 +33,7 @@ module Notams
       @obj_list == true ? @notams : @string_notams
     end
 
-  private
+    private
 
     def notams_string_list
       @notams.each {|n| @string_notams << n.to_s}
@@ -63,7 +63,7 @@ module Notams
       @raw
     end
 
-  private
+    private
 
     def get_message
       starts = @raw.index('E)') + 3
