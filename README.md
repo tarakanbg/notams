@@ -4,9 +4,15 @@ A ruby gem for retrieving the currently active NOTAMs for an airport or a region
 Supports multiple airports/regions in one request. Pulls data from
 [FAA](http://www.faa.gov/) website. Depends on `nokogiri` for the heavy lifting.
 
-[![Build Status](https://secure.travis-ci.org/tarakanbg/notams.png)](http://travis-ci.org/tarakanbg/notams)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/tarakanbg/notams)
+[![Build Status](https://secure.travis-ci.org/tarakanbg/notams.png?branch=master)](http://travis-ci.org/tarakanbg/notams)
 [![Gemnasium](https://gemnasium.com/tarakanbg/notams.png?travis)](https://gemnasium.com/tarakanbg/notams)
+[![Gem Version](https://badge.fury.io/rb/notams.png)](http://badge.fury.io/rb/notams)
+[![Code Climate](https://codeclimate.com/github/tarakanbg/notams.png)](https://codeclimate.com/github/tarakanbg/notams)
+
+## Requirements
+
+[Ruby 1.9.3](http://www.ruby-lang.org/en/downloads/) or higher | **Supports Ruby 2.0!**
+
 
 ## Installation
 
@@ -107,7 +113,13 @@ end
 
 ## Changelog
 
-### v. 0.1 28 July 2012
+### v. 0.2.0 27 February 2013
+
+* Ruby 2.0 support
+* dependencies update
+* classes refactored
+
+### v. 0.1.0 28 July 2012
 
 * added optional arguments customization to the `.notams` method (see [Advanced Usage](#advanced-usage))
 * code refactored into classes for flexibility
@@ -118,6 +130,18 @@ end
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Make sure all tests are passing
+4. Make sure all tests pass!
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
+
+
+## Credits
+
+Copyright © 2013 [Svilen Vassilev](http://svilen.rubystudio.net)
+
+*If you find my work useful or time-saving, you can endorse it or buy me a cup of coffee:*
+
+[![endorse](http://api.coderwall.com/svilenv/endorsecount.png)](http://coderwall.com/svilenv)
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5FR7AQA4PLD8A)
+
+Released under the [MIT LICENSE](https://github.com/tarakanbg/notams/blob/master/LICENSE)

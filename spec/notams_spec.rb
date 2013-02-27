@@ -54,7 +54,6 @@ describe String do
       icao = "lqsa"
       Notams::NotamFetcher.new(icao, :objects => true).fetch.first.message.should eq(icao.notams(:objects => true).first.message)
       icao.notams(:objects => true).first.message.class.should eq(String)
-      # "lqsb".notams(:objects => true).first.message.should eq("moo")
     end
 
     it "should properly return the notam object icao" do
